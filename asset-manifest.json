@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/escape-the-haunted-house/static/css/main.ecbc7df7.css",
-    "main.js": "/escape-the-haunted-house/static/js/main.352f7cf8.js",
-    "static/media/instruction.png": "/escape-the-haunted-house/static/media/instruction.a8cd60b0c5191f4c213b.png",
-    "static/media/homebg.png": "/escape-the-haunted-house/static/media/homebg.3ed831a88265f7ad485f.png",
-    "static/media/page4.png": "/escape-the-haunted-house/static/media/page4.8873e2050cf11a188b79.png",
-    "static/media/page1.png": "/escape-the-haunted-house/static/media/page1.7016425baf6c2688609a.png",
-    "static/media/page2.png": "/escape-the-haunted-house/static/media/page2.5bebc4d12eac2e554d40.png",
-    "static/media/ghost.png": "/escape-the-haunted-house/static/media/ghost.3fb9f6751af6eb33fb4d.png",
-    "static/media/key.png": "/escape-the-haunted-house/static/media/key.4efa8fef2b8391d6024b.png",
-    "static/media/page5.png": "/escape-the-haunted-house/static/media/page5.e38e2bbade9d54179f9b.png",
-    "static/media/scare.png": "/escape-the-haunted-house/static/media/scare.d5b0c562b5a96983b978.png",
-    "index.html": "/escape-the-haunted-house/index.html",
-    "main.ecbc7df7.css.map": "/escape-the-haunted-house/static/css/main.ecbc7df7.css.map",
-    "main.352f7cf8.js.map": "/escape-the-haunted-house/static/js/main.352f7cf8.js.map"
+    "main.css": "/sayiongod/escape-the-haunted-house/static/css/main.a20ed777.css",
+    "main.js": "/sayiongod/escape-the-haunted-house/static/js/main.9dba1fff.js",
+    "static/media/instruction.png": "/sayiongod/escape-the-haunted-house/static/media/instruction.a8cd60b0c5191f4c213b.png",
+    "static/media/homebg.png": "/sayiongod/escape-the-haunted-house/static/media/homebg.3ed831a88265f7ad485f.png",
+    "static/media/page4.png": "/sayiongod/escape-the-haunted-house/static/media/page4.8873e2050cf11a188b79.png",
+    "static/media/page1.png": "/sayiongod/escape-the-haunted-house/static/media/page1.7016425baf6c2688609a.png",
+    "static/media/page2.png": "/sayiongod/escape-the-haunted-house/static/media/page2.5bebc4d12eac2e554d40.png",
+    "static/media/ghost.png": "/sayiongod/escape-the-haunted-house/static/media/ghost.3fb9f6751af6eb33fb4d.png",
+    "static/media/key.png": "/sayiongod/escape-the-haunted-house/static/media/key.4efa8fef2b8391d6024b.png",
+    "static/media/page5.png": "/sayiongod/escape-the-haunted-house/static/media/page5.e38e2bbade9d54179f9b.png",
+    "static/media/scare.png": "/sayiongod/escape-the-haunted-house/static/media/scare.d5b0c562b5a96983b978.png",
+    "index.html": "/sayiongod/escape-the-haunted-house/index.html",
+    "main.a20ed777.css.map": "/sayiongod/escape-the-haunted-house/static/css/main.a20ed777.css.map",
+    "main.9dba1fff.js.map": "/sayiongod/escape-the-haunted-house/static/js/main.9dba1fff.js.map"
   },
   "entrypoints": [
-    "static/css/main.ecbc7df7.css",
-    "static/js/main.352f7cf8.js"
+    "static/css/main.a20ed777.css",
+    "static/js/main.9dba1fff.js"
   ]
 }
