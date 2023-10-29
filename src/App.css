@@ -1,0 +1,222 @@
+#homePage{
+  background-image: url("./images/homebg.png");
+  background-size:cover;
+  width:100vw;
+  height:100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#homePage img{
+  position: absolute;
+}
+
+#homePage-text{
+  font-family: "Jolly Lodger";
+  font-size: 100px;
+  color:white;
+}
+
+#homePage-button{
+  margin-top:50px;
+  font-family: "Inter";
+  font-size:30px;
+  width:300px;
+  height:60px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 30px;
+  cursor: pointer;  
+  background-color: white;
+  transition: background-color 0.5s ease;
+}
+
+#homePage-button:hover{
+  background-color: #B6B6B7;
+}
+
+#ghost1{
+  top:0;
+  left:0;
+  animation: ghost1 5s infinite linear;
+}
+
+@keyframes ghost1{
+  0%{
+    transform: translateX(0);
+  }
+  50%{
+    transform: translateX(100px);
+  }
+  100%{
+    transform: translateX(0);
+  }
+}
+
+#ghost2{
+  bottom:0;
+  right:0;
+  animation: ghost2 5s infinite linear;
+}
+
+@keyframes ghost2{
+  0%{
+    transform: translate(0,0);
+  }
+  33%{
+    transform: translate(-50px, -50px);
+  }
+  66%{
+    transform: translate(-100px, 0);
+  }
+  100%{
+    transform: translate(0,0);
+  }
+}
+
+#instructionPage{
+  background-image: url("./images/instruction.png");
+  background-size:cover;
+  width:100vw;
+  height:100vh;
+  overflow: hidden;
+}
+
+#instructionPage-text{
+  position: absolute;
+  bottom:160px;
+  left:335px;
+  font-size: 40px;
+  cursor:pointer;
+  transition: transform 0.3s ease;
+  background-color: white;
+  border-radius: 15px;
+  padding:10px;
+}
+
+#instructionPage-text:hover{
+  transform: translateY(-5px);
+}
+
+#blackScreen{
+  width:100vw;
+  height:100vh;
+  overflow:hidden;
+  background-color: black;
+}
+
+#page1{
+  background-image: url("./images/page1.png");
+  background-position: bottom;
+  background-size: cover;
+  width:100vw;
+  height:100vh;
+  overflow: hidden;
+}
+
+#page1-circle{
+  display:block;
+  background-color: rgba(256,256,256,0.6);
+  border-radius: 50%;
+  width:70px;
+  height:70px;
+  position:absolute;
+  right:500px;
+  bottom:400px;
+  cursor: pointer;
+}
+
+#page1-text{
+  position: absolute;
+  top:220px;
+  right:360px;
+  opacity: 0;
+  font-size:30px;
+  background-color: white;
+  transition:opacity 1s linear;
+  padding:20px;
+}
+
+#page2{
+  background-image: url("./images/page2.png");
+  background-position: bottom;
+  background-size: cover;
+  width:100vw;
+  height:100vh;
+  overflow: hidden;
+}
+
+#page2-circle{
+  display:block;
+  background-color: rgba(256,256,256,0.6);
+  border-radius: 50%;
+  width:70px;
+  height:70px;
+  position:absolute;
+  right:400px;
+  bottom:200px;
+  cursor: pointer;
+}
+
+#page2-text{
+  position: absolute;
+  top:400px;
+  right:260px;
+  opacity: 0;
+  font-size:30px;
+  background-color: white;
+  transition:opacity 1s linear;
+  padding:20px;
+}
+
+#page3{
+  background: black;
+  width:100vw;
+  height:100vh;
+  overflow: hidden;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#page3-scare{
+  animation: scare 0.5s linear;
+  animation-fill-mode: forwards; 
+}
+
+@keyframes scare {
+  from {
+    transform: scale(1); 
+  }
+  to {
+    transform: scale(5); 
+  }
+}
+
+#page4{
+  background-image: url("./images/page4.png");
+  background-position: bottom;
+  background-size: cover;
+  width:100vw;
+  height:100vh;
+  overflow: hidden;
+}
+
+#page4-circle{
+  position:absolute;
+  cursor: pointer;
+  top:450px;
+  left: 700px;
+}
+
+#page5{
+  background-image: url("./images/page5.png");
+  background-position: bottom;
+  background-size: cover;
+  width:100vw;
+  height:100vh;
+  overflow: hidden;
+}
